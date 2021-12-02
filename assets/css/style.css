@@ -5,3 +5,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+
+}
+
+#header {
+    height: 50px;
+    background-color: black;
+}
+
+#nav {
+
+}
+
+#nav .subnav {
+    display: none;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 24px;
+}
+
+#nav li a:hover {
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+}
+
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
