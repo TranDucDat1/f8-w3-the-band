@@ -20,28 +20,60 @@ html {
 }
 
 #nav {
+    /* bỏ khoảng trắng giữa các navigation */
+    word-spacing: -4px;
+}
 
+#nav, .subnav {
+    list-style: none;
 }
 
 #nav .subnav {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 22px;
+    padding: 8px;
+    min-width: 160px;
+}
+
+#nav li:hover .subnav {
+    display: block;
+} 
+
+#nav > li:hover > a,
+#nav .subnav li:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav > li {
+    display: inline-block;
 }
 
 #nav li {
-    display: inline-block;
+    position: relative;
 }
 
 #nav li a {
-    color: #fff;
     text-decoration: none;
     line-height: 50px;
     padding: 0 24px;
+    display: block;
 }
 
-#nav li a:hover {
-    background-color: #fff;
-    color: #000;
-    display: inline-block;
+/* con trực tiếp */
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
 }
 
 #slider {
