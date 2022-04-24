@@ -24,6 +24,14 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
 #main {
 
 }
@@ -185,6 +193,75 @@ html {
     text-align: justify;
     margin: 15px 0;
 }
+
+#content .members-list {
+    /* display: inline-block;
+    padding: 36px 0;
+    width: 100%; */
+
+    /* hoac la */
+    padding: 36px 0;
+    overflow: hidden;
+
+}
+
+#content .member-item {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+
+#content .member-name {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+#content .member-img {
+    width: 50%;
+    border-radius: 4px;
+}
+
+/* Begin: Tour section */
+
+#content .tour-section {
+    background-color: #000;
+}
+
+.tickets-list {
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.tickets-list li {
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ccc;
+    color: #757575;
+    list-style: none;
+}
+
+.tickets-list .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    margin-left: 16px;
+    padding: 4px 8px;
+}
+
+.tickets-list .quantity {
+    float: right;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    margin-top: -3px;
+    color: #fff;
+    background-color: #000;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/* End: Tour section */
+
 
 #footer {
 
