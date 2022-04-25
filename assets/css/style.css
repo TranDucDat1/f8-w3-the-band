@@ -260,7 +260,63 @@ html {
     border-radius: 50%;
 }
 
+.tour-section .place-list {
+    margin: 32px -8px 0 -8px;
+    padding-bottom: 32px;
+}
+
+.tour-section .place-item {
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+}
+
+.tour-section .place-img {
+    width: 100%;
+    display: block;
+}
+
+.tour-section .place-img:hover {
+    opacity: 0.6;
+}
+
+.tour-section .place-content {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.tour-section .place-heading {
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.tour-section .place-time {
+    margin: 15px 0;
+    color: #757575;
+}
+
+.tour-section .place-desc {
+    margin: 15px 0;
+    line-height: 1.4;
+}
+
+.tour-section .place-by-btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    /* margin: 15px 0; */
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+.tour-section .place-by-btn:hover {
+    opacity: 0.6;
+}
+
+
 /* End: Tour section */
+
 
 
 #footer {

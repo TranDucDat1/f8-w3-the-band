@@ -26,6 +26,14 @@
 // 4.innnerHTML(Them mot element vao DOM) VS OuterHTML
 
 
+// 5. DOM CSS
+// var tourSection = document.querySelector('.tour-section');
+// // console.log(tourSection.style);
+// tourSection.style.backgroundColor = "red";
+
+// console.log(tourSection.style.backgroundColor);
+
+
 
 
 
