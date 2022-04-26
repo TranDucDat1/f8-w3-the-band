@@ -34,6 +34,27 @@
 // console.log(tourSection.style.backgroundColor);
 
 
+// 6. DOM events
+// 6.1 Attribute Events
+// 6.2 Assign event using the element node
+// var contactElement = document.querySelector('.click');
+// var randomFunc = function(e){console.log(e);}
+// contactElement.addEventListener('click', randomFunc);
+
+
+// Modal
+var modalClose = document.querySelector('.modal');
+
+function openOrCloseModal() {
+    modalClose.classList.add('modal-open');
+}
+
+var getCloseBtn = document.querySelector('.modal-close');
+
+getCloseBtn.addEventListener('click', openOrCloseModal);
+
+
+
 
 
 

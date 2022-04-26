@@ -132,7 +132,7 @@
 
             <!-- Begin: Contact -->
             <div class="content-section">
-                <h2 class="section-heading">Contact</h2>
+                <h2 class="section-heading click">Contact</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
             </div>
             <!-- End: Contact -->
@@ -142,7 +142,51 @@
 
 
         <div id="footer">
-            
+
+        </div>
+    </div>
+    <!-- MODAL -->
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <!-- 1 -->
+            <header class="modal-header">
+                <i class="fa-solid fa-suitcase margin-right"></i>
+                Tickets
+            </header>
+
+            <!-- 2 -->
+            <div class="modal-body">
+                <label for="quatity" class="modal-label">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" class="modal-input" id="quatity" placeholder="How many?">
+
+                <label for="user" class="modal-label">
+                    <i class="fa-solid fa-user"></i>
+                    Send To
+                </label>
+                <input type="text" class="modal-input" id="user" placeholder="Enter Email">
+
+                <button id="buy-tickets">
+                    PAY
+                    <i class="fa-solid fa-check"></i>
+                </button>
+            </div>
+
+            <!-- 2 -->
+            <div class="modal-footer">
+                <div class="modal-footer-close">
+                    Close
+                <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <p class="modal-help">Need <a href="">help?</a></p>
+            </div>
         </div>
     </div>
     <script src="./assets/javascript/main.js"></script>
